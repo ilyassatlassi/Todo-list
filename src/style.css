@@ -66,3 +66,12 @@ body {
 .task input {
   border: none;
 }
+
+.tools {
+  display: flex;
+  gap: 10px;
+}
+
+.box {
+  display: none;
+}
