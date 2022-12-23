@@ -51,14 +51,15 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Awsome-book] <a name="about-project"></a>
 
-Awesome Books In this project, we made a basic website that allows users to add/remove books from a list. we achieved that by using JavaScript classes. we also dynamically modified the DOM and added basic events.
+TODO List In this project, we made a basic website that allows users to add/remove books from a list. we achieved that by using JavaScript classes. we also dynamically modified the DOM and added basic events.
 
 
 ## 🛠 Built With <a name="built-with"></a>
 
 - HTML
 - CSS
--JavaScript
+- JavaScript
+- Webpack
 
 
 <!-- Features -->
@@ -88,7 +89,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/ilyassatlassi/Awsome-book.git
+  git clone https://github.com/ilyassatlassi/Todo-list.git
 ```
 -
 
