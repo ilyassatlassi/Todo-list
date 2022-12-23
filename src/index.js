@@ -1,7 +1,9 @@
+/* eslint-disable  */
 import './style.css';
-const list = document.getElementById('listtodo')
-let completed = false,
-todoList = [
+
+const list = document.getElementById('listtodo');
+const completed = false;
+const todoList = [
   {
     "description": "wash the dishes",
     "completed" : completed,
@@ -16,9 +18,7 @@ todoList = [
 
 function showTodo() {
   let litItems = "";
-  todoList.forEach((element) => 
-      
-          litItems += `<li class="task">
+  todoList.forEach((element) => litItems += `<li class="task">
                                   <div>
                                   <input type="checkbox" class="checkme" id="check${element.index}">
                                   <input type="text" value="${element.description}" class="listitem" id="item${element.index}" readonly>
@@ -28,10 +28,10 @@ function showTodo() {
                                   <i class="fa-solid fa-floppy-disk save hide" id="save${element.index}" onclick="saveItem(${element.index});"></i>
                                   <i id="removeicon" onclick="removeItem(${element.index});" class="fa-solid fa-trash"></i>
                                   </div>
-                                  
                           </li>`
-);
-  list.innerHTML = litItems ;
+  );
+
+  list.innerHTML = litItems;
 }
 
 showTodo();
