@@ -6,7 +6,8 @@ const inputAdd = document.querySelector(".input input");
 let completed = false;
 let index = 0;
 let todoList = [];
-export default todoList;
+module.exports = todoList;
+
 
 function showList() {
   let litItems = "";
