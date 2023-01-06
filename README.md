@@ -68,9 +68,15 @@ TODO List In this project, we made a basic website that allows users to add/remo
 
 > Describe between 1-3 key features of the application.
 
-- **[Add and Remove the book]**
+- **[Add and Remove the task]**
 - **[Storage in Local Storage]**
 - **[Create with JavaScript ES6]**
+
+### Future Features <a name="future-features"></a>
+
+- **[Editing and rendering each task individually]**
+- **[Responsiveness]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
