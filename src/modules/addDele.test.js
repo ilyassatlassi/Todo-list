@@ -1,4 +1,6 @@
-const todoList = require('./main');
+/* global add */
+/* eslint no-undef: "error" */
+const todoList = require('./main.js');
 
 // Mocks for localStorage and list element
 const localStorageMock = {
@@ -48,7 +50,7 @@ describe('delete function', () => {
     todoList.push({ index: 2, description: 'item 3', completed: false });
 
     // Call the delete function with an index to delete
-    delete(1);
+    delete (1);
 
     // Verify that the delete function was called with the correct arguments
     expect(localStorage.setItem).toHaveBeenCalledWith('todo-list', JSON.stringify([
@@ -58,8 +60,8 @@ describe('delete function', () => {
 
     // Verify that the todoList array has the expected values
     expect(todoList).toEqual([
-        { index: 0, description: 'item 1', completed: false },
-        { index: 2, description: 'item 3', completed: false }
-      ]);
-    });
+      { index: 0, description: 'item 1', completed: false },
+      { index: 2, description: 'item 3', completed: false },
+    ]);
+  });
 });
