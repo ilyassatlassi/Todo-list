@@ -1,5 +1,5 @@
 /* eslint-disable */
-const todoList = require('./main');
+const todoList = require('./main.js');
 const list = document.getElementById('listtodo');
 const inputAdd = document.querySelector(".input input");
 
