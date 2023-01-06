@@ -1,12 +1,14 @@
 /* eslint-disable  */
 
 const list = document.getElementById('listtodo');
+console.log(list)
 const inputAdd = document.querySelector(".input input");
 
 let completed = false;
 let index = 0;
 let todoList = [];
-export default todoList;
+module.exports = todoList;
+
 
 function showList() {
   let litItems = "";
@@ -106,7 +108,7 @@ window.saveFunc = (index) => {
   showList()
 };
 
-window.removeFunc = (index) => {
+const removeFunc = (index) => {
   let storedData = localStorage.getItem("todo-list");
   todoList = JSON.parse(storedData);
   todoList.splice(index, 1);

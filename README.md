@@ -111,7 +111,7 @@ Example command:
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Authors 1 <a name="authors"></a>
 
 > Mention all of the collaborators of this project.
 
@@ -120,6 +120,14 @@ Example command:
 - GitHub: [@githubhandle](https://github.com/ilyassatlass)
 - Twitter: [@twitterhandle](https://twitter.com/ilyass_atlassi)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ilyassatlassi/)
+
+
+👤 **Author 2**
+
+- GitHub: [@Athaliah8](https://github.com/Athaliah8)
+- Twitter: [@Athaliah](https://twitter.com/AthaliahLi)
+- LinkedIn: [@Athaliahli](https://www.linkedin.com/in/athaliah-li-56217324a/)
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
