@@ -1,37 +1,36 @@
-/* eslint-disable  */
 import './style.css';
 
 const list = document.getElementById('listtodo');
-const completed = false;
+
 const todoList = [
   {
-    "description": "wash the dishes",
-    "completed" : completed,
-    "index" : 0
+    index: 0,
+    description: 'wash the dishes',
+    completed: false,
   },
   {
-    "description": "wash the dishes",
-    "completed" : completed,
-    "index" : 1
+    index: 1,
+    description: 'wash the dishes',
+    completed: false,
   },
 ];
 
-function showTodo() {
-  let litItems = "";
-  todoList.forEach((element) => litItems += `<li class="task">
+const showList = () => {
+  let listItems = '';
+  todoList.forEach((element) => {
+    listItems += `<li class="task">
                                   <div>
-                                  <input type="checkbox" class="checkme" id="check${element.index}">
+                                  <input type="checkbox" class="checkFunc"  id="check${element.index}">
                                   <input type="text" value="${element.description}" class="listitem" id="item${element.index}" readonly>
                                   </div>
-                                  <div>
-                                  <i class="fa-solid fa-pen-to-square edit " id="edit${element.index}");"></i>
-                                  <i class="fa-solid fa-floppy-disk save hide" id="save${element.index}" "></i>
+                                  <div class = "tools">
+                                  <i class="fa-solid fa-pen-to-square edit " id="edit${element.index}"></i>
+                                  <i class="fa-solid fa-floppy-disk save hide box" id="save${element.index}"></i>
                                   <i id="removeicon"  class="fa-solid fa-trash"></i>
                                   </div>
-                          </li>`
-  );
+                          </li>`;
+  });
+  list.innerHTML = listItems;
+};
 
-  list.innerHTML = litItems;
-}
-
-showTodo();
+showList();
