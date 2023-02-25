@@ -24,9 +24,9 @@ function showTodo() {
                                   <input type="text" value="${element.description}" class="listitem" id="item${element.index}" readonly>
                                   </div>
                                   <div>
-                                  <i class="fa-solid fa-pen-to-square edit " id="edit${element.index}" onclick="editItem(${element.index});"></i>
-                                  <i class="fa-solid fa-floppy-disk save hide" id="save${element.index}" onclick="saveItem(${element.index});"></i>
-                                  <i id="removeicon" onclick="removeItem(${element.index});" class="fa-solid fa-trash"></i>
+                                  <i class="fa-solid fa-pen-to-square edit " id="edit${element.index}");"></i>
+                                  <i class="fa-solid fa-floppy-disk save hide" id="save${element.index}" "></i>
+                                  <i id="removeicon"  class="fa-solid fa-trash"></i>
                                   </div>
                           </li>`
   );
